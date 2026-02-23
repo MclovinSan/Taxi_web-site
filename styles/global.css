@@ -42,6 +42,8 @@ a {
   color: inherit;       /* Наследует цвет от родителя (например, черный) */
   text-decoration: none; /* Убирает подчеркивание, если оно есть */
   outline: none;         /* Убирает синюю рамку при клике */
+  line-height: 0;
+  font-size: 0;
 }
 
 ::-webkit-scrollbar {
