@@ -1,0 +1,20 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "web-site about taxi park ",
+  "homepage": "https://github.com/MclovinSan/Taxi_web-site#readme",
+  "bugs": {
+    "url": "https://github.com/MclovinSan/Taxi_web-site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MclovinSan/Taxi_web-site.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', monospace;
+  text-transform: uppercase;
+}
+
+body {
+  padding-top: 69px;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--accent-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  width: fit-content;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button,
+a {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.link-item a, 
+.link-item a:visited, 
+.link-item a:active, 
+.link-item a:focus {
+  color: inherit;       /* Наследует цвет от родителя (например, черный) */
+  text-decoration: none; /* Убирает подчеркивание, если оно есть */
+  outline: none;         /* Убирает синюю рамку при клике */
+}
+
+::-webkit-scrollbar {
+  width: 8px;                /* Ширина вертикального скролла */
+  height: 8px;               /* Высота горизонтального (если появится) */
+}
